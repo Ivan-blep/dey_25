@@ -1,5 +1,8 @@
-*{transition: all .1s ease-in;}
-body{
+* {
+    transition: all .1s ease-in;
+}
+
+body {
     margin: 0;
     padding: 100px 0;
     font-family: 'Lato', sans-serif;
@@ -7,47 +10,59 @@ body{
     font-weight: 300;
     font-size: 18px;
     color: black;
-    
+
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
-p{
+
+p {
     line-height: 2;
+    margin-bottom: 40px;
 }
-section{
+
+.section {
     margin: 110px 120px;
     box-shadow: rgb(100 100 111 / 20%) 0px 8px 40px 10px;
     padding: 120px;
 
 }
-.container{
+
+.container {
     margin: 0 auto;
     max-width: 1340px;
     background: #ffffff;
     padding: 0 30px;
-    
+
 }
-h1{
+
+h1 {
     font-family: 'Playfair Display', serif;
     font-size: 42px;
     margin-bottom: 40px;
     font-weight: bold;
 }
-.up{
+
+.up {
     font-family: 'Playfair Display', serif;
     font-size: 110px;
     float: left;
-    
+
     line-height: .9;
     padding-right: 30px;
 }
 
-.quotes{
+.quotes {
     margin-right: 15px;
 }
-.btn{
-    margin-top: 45px;
+
+.btn {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
@@ -55,8 +70,10 @@ h1{
     border: 2px solid orange;
     padding: 25px 80px;
     color: orange;
+    cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
     background: orange;
     color: #ffffff;
 }
